@@ -1,0 +1,81 @@
+{% extends "templates/base.html" %}
+
+{% block title %}
+    HOME
+{% endblock %}
+
+{% block header %}
+	<header>
+		<div class="header-container">
+			<div class="video-container">
+				<video preload="true" autoplay="autoply" loop="loop" volume="0" poster="static/portfolio.png">
+        	<source src="static/portfolio.mp4" type="video/mp4">
+    	</video>
+    </div>
+
+			<div class ="square">
+        <div class="square-content text-center">
+          <h1>Welcome</h1>
+          <p>This is Betty's first handmade website. It might not be perfect, but try to be "cute".</p>
+        </div>
+      </div>
+
+    </div>
+	</header>
+{% endblock %}
+
+{% block content %}
+<section>
+  <!---Works Picture Grid -->
+  	<div class="container-fluid bg-3 text-center">
+  		<div class="UX-title">
+  			<h1>UI/UX Works</h1>
+  		</div>
+  		
+
+  		<div class="row">
+  			<div class="col-sm-4 bg-3">
+  				<img src="/static/W1.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+  			</div>
+  			<div class="col-sm-4">
+  				<img src="/static/W2.jpg" class="img-responsive" style="width:100%" alt="Image" ><br>
+  			</div>
+    		<div class="col-sm-4">
+    			<img src="/static/W3.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+    		</div>
+  		</div>
+  	</div>
+
+  	<div class="container-fluid bg-3 text-center">
+  		<div class="row">
+  			<div class="col-sm-4">
+  				<img src="/static/W4.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+  			</div>
+  			<div class="col-sm-4">
+  				<img src="/static/W5.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+  			</div>
+    		<div class="col-sm-4">
+    			<img src="/static/W6.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+    		</div>
+  		</div>
+  	</div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="UX-title">
+        <h1>Graphic Works</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="/static/W7.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+        </div>
+        <div class="col-sm-4">
+          <img src="/static/W8.png" class="img-responsive" style="width:100%" alt="Image"><br>
+        </div>
+        <div class="col-sm-4">
+          <img src="/static/W9.png" class="img-responsive" style="width:100%" alt="Image"><br>
+        </div>
+      </div>
+    </div>
+</section>
+
+{% endblock %}

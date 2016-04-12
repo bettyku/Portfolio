@@ -1,0 +1,31 @@
+{% extends "templates/base.html" %}
+
+{% block title %}
+    PET
+{% endblock %}
+
+{% block header %}
+<header class="food-header">
+	<div><img src="/static/pet-icon.png" style="max-height:40vh; margin-right:5vw;" alt="image">Betty's favorite pet
+	</div>
+</header>
+{% endblock %}
+
+{% block content %}
+<main>
+    <div class="container-fluid bg-2 ">
+    	<div class="row">
+    		<div class="col-sm-6 bg-2 corgi">
+    			<img src="http://37.media.tumblr.com/b56a316cfb1dc9e35a59fffb2f501eef/tumblr_n1feakjxh51qzqrpyo1_400.gif" class="img-rounded" alt="Image">
+    		</div>
+    		<div class="col-sm-6 bg-2 text-center icecream-text display:inline-block inherits">
+    			<h1 class="food-title"> Corgi</h1>
+    			<p>The Pembroke Welsh Corgi is a very intelligent herding breed. As such, Pembrokes typically need a job to do to keep them busy and out of trouble, but are not on the go 24 hours a day like some other herding breeds. They are extremely quick to learn, but unlike some breeds like Golden Retrievers, aren’t necessarily willing to please for praise. Food and toy rewards are great motivators while negative reinforcement will cause a Pembroke to shut down. They excel in agility, flyball, and herding, but are not known for doing as well in the very formal competition obedience ring.</p>
+    			<a href="http://www.animalplanet.com/tv-shows/dogs-101/videos/pembroke-welsh-corgi/" type="button" class="icecream-button">
+                    See more!
+                </a>
+    		</div>
+    </div>
+
+</main>
+{% endblock %}

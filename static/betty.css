@@ -1,0 +1,221 @@
+.header-container{
+    width: 100%;
+    height:900px;
+    border-left: none;
+    border-right:none;
+    position:relative;
+    padding: 60px;
+    margin-top: 0;
+}
+.video-container{
+    position: absolute;
+    top:0%;
+    left:0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+video{
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    width: 100%;}
+
+
+
+
+.square {
+    position: relative;
+    width: 30%;
+    border:solid 10px #ffffff;
+    margin: 10vw auto;
+    color: #ffffff;
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.square-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.square-content >h1{
+    font-family:'Permanent Marker', cursive;
+    font-size: 5vw;
+    text-shadow: 2px 2px 4px #000000;
+}
+.square-content >p{
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.UX-title h1{
+    font-size: 6em;
+    margin-top: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #ff0066;
+} 
+
+.navbar-inverse .navbar-nav>li>a.active {
+    color: #ffff00;
+} /*nav text color*/
+.navbar-inverse .navbar-brand {
+    color: #ff0066;
+} /*brand text color*/
+.navbar-inverse .navbar-text {
+    color: #ff0066;
+    } /*footer text color*/
+.navbar .navbar-btn {
+    background-color: #ff0066;
+}
+
+.betty-button {
+    background-color: #ff0066;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+.icecream-text{
+    padding: 5% 10%;}
+
+.food-title{
+    font-family:'Permanent Marker', cursive;
+    font-size: 3vw;
+    color: #ff0066;
+}
+.icecream-button
+{
+    background-color: #ff0066;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.row{
+    padding-top: 10vh;
+    padding-bottom: 150px;
+}
+
+.food-header {
+    color: white;
+    /*background-image:url("http://thearcticscoop.com/wp-content/uploads/2014/07/PetiteCones.jpg");*/
+    background-color:#ff9999 ;
+    padding: 15vh;
+    font-family:'Permanent Marker', cursive;
+    font-size: 8vh;
+    text-align: center;
+}
+
+@media only screen and (min-width: 780px) {
+    .food-header{ 
+      background:  #cc0066; 
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+        .food-header{ 
+      background: #ff0066;
+    }
+}
+
+
+
+.betty-footer{
+    background-color: black;
+    height: 100px;
+    color:#cc0066;
+    text-align: left;
+    padding-top: 3vh;
+}
+
+.travel{ 
+background-image: url(../static/travl1.JPG); 
+background-size: cover;
+height: 1500px;
+color: white
+}
+
+.travel-header{
+    padding-top: 30vh;
+    padding-left: 10vw;
+text-align: center;}
+
+.travel-header h1{
+    font-family:'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #ff0066;
+}
+.travel-header p{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 780px) {
+.travel-header{
+    height: 5vw;
+text-shadow: 2px 2px 4px #000000;
+width: 55vw;
+margin: 0 auto;
+}
+
+.travel-header h1{
+    font-family:'Permanent Marker', cursive;
+    font-size: 8vw;
+    color: #ff0066;
+
+}
+.travel-header p{
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+}
+}
+
+.corgi{ 
+margin: 0 auto;
+}
+.img-rounded {
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+    margin:0 auto;
+display: block;}
+
+
+
+@media only screen and (min-width: 780px) {
+    .img-rounded {
+    height: 30vw;
+    width: 30vw;
+    border-radius:15vw;
+    margin-left: 15vw;
+}
+}
+
+

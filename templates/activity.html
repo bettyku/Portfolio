@@ -1,0 +1,32 @@
+{% extends "templates/base.html" %}
+
+{% block title %}
+    FOOD
+{% endblock %}
+
+{% block header %}
+<header class="food-header">
+	<div><img src="/static/activity-icon.png" style="max-height:50vh; margin-right:5vw;">Betty likes to
+	</div>
+</header>
+{% endblock %}
+
+{% block content %}
+<main>
+    <div class="container-fluid bg-3 ">
+    	<div class="row">
+    		<div class="col-sm-6 bg-3">
+    			<img src="/static/biking.jpeg" class="img-responsive" style="width:100%" alt="Image"><br>
+    		</div>
+    		<div class="col-sm-6 bg-3 text-center icecream-text ">
+    			<h1 class="food-title"> I love biking</h1>
+    			<p>If my legs had an attached meter measuring movement through lifetime, it would register far more revolutions than steps. In fact I hardly ever walk anywhere unless I have to – from my office chair to get coffee, to climb stairs, visit the bathroom, enter a pub, or go to a meeting. I'd probably cycle to those too if permitted, and if it wasn't slightly dangerous.</p>
+    			<a href="http://www.theguardian.com/lifeandstyle/bike-blog/2014/jun/19/why-i-love-cycling" type="button" class="icecream-button">
+                    Cycling!
+                </a>
+    		</div>
+    	</div>
+    </div>
+</main>
+
+{% endblock %}
